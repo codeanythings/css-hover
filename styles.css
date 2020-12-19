@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(
+        68deg,
+        rgb(89, 186, 204) 50%,
+        rgb(255, 255, 255) 50%
+    );
+}
+
+h1{
+    font-family: 'Segoe UI';
+    font-size: 4rem;
+    color: rgb(59, 122, 238);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+h1:hover{
+    text-shadow: 7px 7px rgb(0, 253, 249);
+}
+
